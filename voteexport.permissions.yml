@@ -1,0 +1,14 @@
+'delete voteexport':
+  title: Delete voteexport
+  description: Allows users to delete voteexport.
+'add voteexport':
+  title: Add voteexport
+'view voteexport':
+  title: View voteexport
+'edit voteexport':
+  title: Edit voteexport
+  description: Allows users to edit voteexport.
+'administer voteexport':
+  title: Administer settings
+  description: Allows users to alter the settings related to voteexport.
+  restrict access: TRUE

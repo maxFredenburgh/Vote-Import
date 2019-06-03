@@ -1,0 +1,9 @@
+
+voteexport.voteExportForm:
+  path: '/voteexport/form/default'
+  defaults:
+    _form: '\Drupal\voteexport\Form\DefaultForm'
+    _title: 'Replace voteexport destination'
+  requirements:
+    _access: 'TRUE'
+  

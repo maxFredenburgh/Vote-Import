@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains voteexport.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function voteexport_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the voteexport module.
+    case 'help.page.voteexport':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module will voteexport') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function voteexport_theme() {
+  return [
+    'voteexport' => [
+      'render element' => 'children',
+    ],
+  ];
+}

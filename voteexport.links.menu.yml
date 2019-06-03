@@ -1,0 +1,6 @@
+voteexport.admin:
+  title: 'Import Votes'
+  description: 'voteexport destination'
+  parent: system.admin_config_development
+  route_name: voteexport.voteExportForm
+  weight: 100
